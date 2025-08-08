@@ -56,16 +56,14 @@ We will evaluate your submission based on:
 
 ## 5. Submission Guidelines  
 
-1. **Fork** this repository to your own GitHub account.  
-2. **Implement** your solution in your forked repository.  
-3. Ensure your project includes:  
+1. Ensure your project includes:  
    - A clear **README** with setup and run instructions.  
    - Any necessary environment files or example configs (e.g., `.env.example`).  
    - **Tests** and instructions on how to run them.  
-4. Make sure your code runs without errors on a clean install using:  
+2. Make sure your code runs without errors on a clean install using:  
    ```bash
    yarn install
    yarn ios   # or yarn android
    ```  
-5. Once complete, **share the repository link** (or a zipped copy of your repo) with us.  
-6. Do **not** include any dependencies or files that are not required for this project.  
+3. Once complete, **share the repository link** (or a zipped copy of your repo) with us.  
+4. Do **not** include any dependencies or files that are not required for this project.  
