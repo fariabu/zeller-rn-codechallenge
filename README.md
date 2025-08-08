@@ -1,31 +1,71 @@
 # Zeller React Native Code Challenge
 
-## 1. Goal
-Your goal is to build a React Native app that displays, filters, and manages a list of users. The application should integrate with a provided GraphQL endpoint and also support local data management using local storage.
-We are most interested in how you structure your code, your use of TypeScript, and your approach to testing.
+## 1. Objective  
+Build a **React Native application** that displays, filters, and manages a list of users.  
+The app should integrate with the provided **GraphQL API** and persist data in a **local database** for offline usage.  
 
-## 2. Requirements
-- Fetch data from the listZellerCustomers GraphQL query (schema and connection details are in aws-exports.js and schema.gql).
-- Store the fetched data into a local storage database (e.g. SQLite, Watermelon, Realm etc).
-- Display the list of users from local storage, not directly from the network.
-- Allow filtering users by user type (Admin, Manager).
-- Allow adding new users and saving them to the local database. (No need to call Mutation/API)
-- Your app should run on iOS or Android.
-- Tests are VERY important.
-- Make sure to have clean and readable source code.
+We will evaluate your submission based on:  
+- **Code structure and maintainability**  
+- **TypeScript usage**  
+- **Testing approach and coverage**  
 
-## 3. Bonus Points
+---
 
-These features are absolutely not required, however if you finish your project early and wish to continue, here are some ideas
+## 2. Requirements  
 
-- Implemenent a text search box that filters users by name
-- Implement a pull to refresh on the list
-- Support updating and deleting users from the local database.
- 
+### **Data Integration**
+- Fetch user data using the `listZellerCustomers` GraphQL query.  
+  *(Schema and connection details are provided in `aws-exports.js` and `schema.gql`.)*  
+- Store the fetched data in a local database such as **SQLite**, **WatermelonDB**, **Realm**, or similar.  
+- Display the list of users from the **local database**, not directly from the network.  
 
-## 4. Designs
-![alt text](zeller-customers-design.png)
-![alt text](zeller-add-user.png)
+### **User Management**
+- Add new users and save them to the local database. *(No API mutation is required.)*  
+- Update and delete users from the local database.  
 
+### **Filtering & Searching**
+- Filter users by **user type** (`Admin`, `Manager`).  
+- Implement a text search to filter users by **name**.  
 
+### **UI & Interaction**
+- Implement **pull-to-refresh** on the user list.  
+- Ensure the app runs on **iOS** or **Android**.  
 
+### **Code Quality & Testing**
+- Write **unit and/or integration tests** for critical parts of the application.  
+- Follow **clean, readable, and consistent** coding practices.  
+
+---
+
+## 3. Design References  
+
+**List Screen**  
+![Zeller Customers List](zeller-customers-design.png)  
+
+**Create User Form**  
+![Add User Screen](zeller-add-user.png)  
+
+---
+
+## 4. Notes  
+- You may use any state management solution (e.g., Redux, Zustand, Jotai, or Context API).  
+- Keep the codebase modular and well-documented so it’s easy to review.  
+- Aim for a production-quality implementation, even though this is a challenge.  
+
+---
+
+## 5. Submission Guidelines  
+
+1. **Fork** this repository to your own GitHub account.  
+2. **Implement** your solution in your forked repository.  
+3. Ensure your project includes:  
+   - A clear **README** with setup and run instructions.  
+   - Any necessary environment files or example configs (e.g., `.env.example`).  
+   - **Tests** and instructions on how to run them.  
+4. Make sure your code runs without errors on a clean install using:  
+   ```bash
+   npm install
+   npm run ios   # or npm run android
+   ```  
+5. Once complete, **share the repository link** (or a zipped copy of your repo) with us.  
+6. Do **not** include any dependencies or files that are not required for this project.  
