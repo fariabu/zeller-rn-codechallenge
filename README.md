@@ -64,8 +64,8 @@ We will evaluate your submission based on:
    - **Tests** and instructions on how to run them.  
 4. Make sure your code runs without errors on a clean install using:  
    ```bash
-   npm install
-   npm run ios   # or npm run android
+   yarn install
+   yarn ios   # or yarn android
    ```  
 5. Once complete, **share the repository link** (or a zipped copy of your repo) with us.  
 6. Do **not** include any dependencies or files that are not required for this project.  
