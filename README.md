@@ -40,10 +40,10 @@ We will evaluate your submission based on:
 ## 3. Design References  
 
 **List Screen**  
-![Zeller Customers List](zeller-customers-design.png)  
+![Zeller Customers List] [ ] (zeller-customers-design.png)  
 
 **Create User Form**  
-![Add User Screen](zeller-add-user.png)  
+![Add User Screen][ ] (zeller-add-user.png)  
 
 ---
 
@@ -51,6 +51,7 @@ We will evaluate your submission based on:
 - You may use any state management solution (e.g., Redux, Zustand, Jotai, or Context API).  
 - Keep the codebase modular and well-documented so it’s easy to review.  
 - Aim for a production-quality implementation, even though this is a challenge.  
+- Feel free to enhance the **user experience** with **smooth interactions** or **transitions** where appropriate.
 
 ---
 
