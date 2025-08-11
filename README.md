@@ -40,10 +40,12 @@ We will evaluate your submission based on:
 ## 3. Design References  
 
 **List Screen**  
-![Zeller Customers List] (zeller-customers-design.png)  
+
+![Zeller Customers List](zeller-customers-design.png)  
 
 **Create User Form**  
-![Add User Screen] (zeller-add-user.png)  
+
+![Add User Screen](zeller-add-user.png)  
 
 ---
 
